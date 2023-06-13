@@ -1,0 +1,59 @@
+.poster {
+  width: 100%;
+  height: 350px;
+  padding: auto;
+  margin: auto;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 545px;
+  width: 345px;
+  border: 2px solid black;
+  margin: 5px auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid rgba(0, 98, 255, 0.8);
+  width: 90%;
+  margin: 2% auto;
+  padding: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.summary {
+  overflow-y: scroll;
+  height: 68px;
+}
+.movieName,
+.rating {
+  display: inline-block;
+}
+.rating {
+  float: right;
+}
+.btn {
+  margin: 25px 5px 5px 5px;
+  padding: 5px;
+}
+.downBtn {
+  margin-left: 5px;
+}
+.title {
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  color: darkred;
+  text-decoration: underline;
+  text-align: center;
+}
